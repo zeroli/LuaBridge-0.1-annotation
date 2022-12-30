@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="include\impl">
+      <UniqueIdentifier>{bf4011fd-e99b-499b-9a61-bc155c7a4a16}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\luabridge.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shared_ptr.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\luabridge.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shared_ptr.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\impl\class.hpp">
+      <Filter>include\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\impl\module.hpp">
+      <Filter>include\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\impl\shared_ptr.hpp">
+      <Filter>include\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\impl\stack.hpp">
+      <Filter>include\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\impl\typelist.hpp">
+      <Filter>include\impl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="LICENSE.txt" />
+    <Text Include="README.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+  </ItemGroup>
+</Project>
